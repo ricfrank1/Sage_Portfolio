@@ -8,10 +8,14 @@
 	box-sizing: border-box;
 }
 
+
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
+
 
 .logo {
     width: 70px;
@@ -138,10 +142,12 @@ figure {
     text-align: center;
 }
 
-figure:hover figcaption{
+figure:hover figcaption,
+figure:hover + h3 {
     display: block;
     color: #f63c3c;
 }
+
 
 
 figcaption {
