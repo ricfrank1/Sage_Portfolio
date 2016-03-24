@@ -1,0 +1,271 @@
+/*~~~~~~~~~~~~~~~~~~~~~
+ Importing Fonts
+~~~~~~~~~~~~~~~~~~~~~*/
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+@import url(https://fonts.googleapis.com/css?family=Teko:400,300);
+
+*{
+	box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 375px;
+    margin-right: 590px;
+}
+
+.logo img {
+    max-width:100%;
+    max-height:100%;
+}
+
+.navigation {
+    height: 70px;
+    padding: 30px;
+}
+
+.nav-links li{
+    display: inline;
+    font-family: "titillium web";
+    margin-right: 40px;
+}
+
+.nav-links li a {
+        color: #949494;
+    height: 70px;
+}
+
+.nav-links .active a {
+    color: #f63c3c;
+    width: inherit;
+    padding-bottom: 16px;
+    text-decoration: none; 
+    border-bottom: 5px solid #f63c3c;
+}
+
+.slideshow .content {
+    display: none;
+    background-image: url(../img/background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #383940;
+}
+
+.slideshow .active .content {
+    display: block;
+    height: 1012px;
+    padding-top: 314px;
+}
+
+.content h1 {
+    font: 300 120px/120px "Teko", Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 10px;
+    text-align: center;
+    width: 1200px;
+    margin: 0px auto 40px;
+}
+
+.content p {
+    text-align: center;
+    color: rgba(255, 255, 255, .7);
+    font: 300 22px "Titillium Web", Helvetica, sans-serif;
+    width: 800px;
+    margin: 0 auto 46px;
+}
+
+.button {
+    font: 300 20px "Teko", Helvetica, sans-serif;
+    margin: auto;
+    display: block;
+    width: 230px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 11px;
+    letter-spacing: 2px;
+}
+
+.pagination {
+    margin: -86px auto 186px;
+    text-align: center;
+}
+
+nav.pagination ul li {
+    display: inline-block;
+    width: 40px;
+    height: 4px;
+    background-color: rgba(255,255,255,.22);
+    margin-right: 10px;
+}
+
+nav.pagination ul li.active {
+        background-color: rgba(255,255,255,1);
+}
+
+.projects h2 {
+    font: 300 40px "Teko", Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 56px;
+    height: 40px;
+}
+
+.clearfix article:after {
+      content:"";
+  display:table;
+  clear:both;
+}
+
+article {
+    float: left;
+    margin: 0 0 0 21px;
+    height: 625px;
+    position: relative;
+}
+
+figure {
+    text-align: center;
+}
+
+figure:hover figcaption{
+    display: block;
+    color: #f63c3c;
+}
+
+
+figcaption {
+    width: 890px;
+    height: 460px;
+    margin: 0 auto -460px;
+    display: block;
+    position: relative;
+    top: -483px;
+    background-color: #f63c3c;
+    padding-top: 194px;
+    display: none;
+}
+
+figcaption h4 {
+    font: 300 24px "Teko", Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    color: white;
+}
+
+time {
+    display: block;
+    height: 24px;
+}
+
+a figcaption p {
+    font: 300 18px "Teko", Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 75px;
+}
+
+h3 {
+    font: 400 30px "Teko", Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    height: 30px;
+    letter-spacing: 4px;
+    margin: 10px auto 20px;
+}
+
+article p {
+    text-align: center;
+    color: #555;
+    width: 530px;
+    margin: auto;
+    font: 300 14px "Titillium Web", Helvetica, sans-serif;
+}
+
+.projects footer {
+    font: 300 20px "Teko", Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    width: 180px;
+    margin: 0 auto 75px;
+    color: #f63c3c;
+    border-bottom: 4px solid #f63c3c;
+}
+
+.cta {
+    height: 240px;
+    background-color: #f63c3c;
+    padding-top: 40px;
+    margin-bottom: 65px;
+}
+
+.cta h2 {
+    font: 300 40px "Teko", Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.cta p {
+    font: 300 16px "Titillium Web", Helvetica, sans-serif;
+    text-align: center;
+    color: rgba(255,255,255,.7);
+    margin-bottom: 16px;
+}
+
+.social-media {
+    margin: 0 300px 0 375px;
+}
+
+.social-media h2 {
+    font: 400 40px "Teko", Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.social-media p {
+    font: 300 16px "Titillium Web", Helvetica, sans-serif; 
+    margin-bottom: 60px;
+    color: #555;
+}
+
+.social-media ul li {
+    display: inline-block;
+    background-color: #30282a;
+    width: 270px;
+    height: 195px;
+    margin: 0 30px 80px 0;
+    color: white;
+    font: 300 30px "Teko", Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.social-link i {
+    font-size: 50px;
+    display: block;
+}
+
+footer {
+    margin: 0 0 40px 375px;
+    font: 300 13px "Titillium Web", Helvetica, sans-serif; 
+    color: #555;
+}

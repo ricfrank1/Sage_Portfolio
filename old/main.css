@@ -1,0 +1,7 @@
+nav {
+    height: 35px;
+}
+
+.slide {
+    background: white url ("../img/slide1.jpg") no-repeat right top;
+}
