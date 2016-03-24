@@ -138,17 +138,12 @@ article {
     position: relative;
 }
 
-figure {
-    text-align: center;
-}
 
 figure:hover figcaption,
 figure:hover + h3 {
     display: block;
     color: #f63c3c;
 }
-
-
 
 figcaption {
     width: 890px;
@@ -209,6 +204,7 @@ article p {
     margin: 0 auto 75px;
     color: #f63c3c;
     border-bottom: 4px solid #f63c3c;
+    clear: both;
 }
 
 .cta {
